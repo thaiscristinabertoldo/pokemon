@@ -1,0 +1,22 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Navbar should take a snapshot 1`] = `
+<DocumentFragment>
+  <div
+    class="sc-AxjAm hYyltE"
+    data-testid="navbar"
+  >
+    <a
+      data-testid="home-link"
+      href="/pokemon"
+    >
+      <img
+        alt="Pokémon"
+        class="img"
+        height="50px"
+        src="logo.png"
+      />
+    </a>
+  </div>
+</DocumentFragment>
+`;

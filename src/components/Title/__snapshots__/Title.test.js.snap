@@ -1,0 +1,9 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Title should take a snapshot 1`] = `
+<DocumentFragment>
+  <h1
+    class="sc-AxjAm byhsde"
+  />
+</DocumentFragment>
+`;

@@ -1,0 +1,14 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Button should take a snapshot 1`] = `
+<DocumentFragment>
+  <button
+    class="sc-AxjAm ikEyMv"
+    color="#ffffff"
+    data-testid="button"
+    width="auto"
+  >
+     
+  </button>
+</DocumentFragment>
+`;

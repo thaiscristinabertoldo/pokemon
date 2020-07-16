@@ -1,0 +1,31 @@
+stages:
+  - test
+  - build
+  - deploy
+
+unit_tests:
+  image: node:latest
+  stage: test
+  before_script:
+    - yarn install
+  script:
+    - yarn test
+react_build:
+  image: node:latest
+  stage: build
+  before_script:
+    - yarn install
+  script:
+    - yarn build
+react_deploy:
+  image: node:latest
+  stage: deploy
+  dependencies:
+    - react_build
+  script:
+    - apt-get update -qy
+    - apt-get install -y ruby-dev
+    - gem install dpl
+    - dpl --provider=heroku --app=$HEROKU_APP_KEY --api-key=$HEROKU_API_KEY
+  only:
+    - master

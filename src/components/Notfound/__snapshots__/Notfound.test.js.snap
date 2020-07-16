@@ -1,0 +1,23 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Notfound should take a snapshot 1`] = `
+<DocumentFragment>
+  <div
+    class="sc-AxirZ dTSlMl"
+  >
+    <img
+      alt="Nenhum registro encontrado"
+      data-testid="image"
+      height="300px"
+      src="emptylist.svg"
+      title="Nenhum registro encontrado"
+      width="300px"
+    />
+    <h1
+      class="sc-AxjAm byhsde"
+    >
+      Nenhum registro encontrado
+    </h1>
+  </div>
+</DocumentFragment>
+`;

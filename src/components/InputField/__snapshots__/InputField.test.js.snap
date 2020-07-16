@@ -1,0 +1,22 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`InputField should take a snapshot 1`] = `
+<DocumentFragment>
+  <div
+    class="sc-AxjAm iPiXKw"
+  >
+    <input
+      class="sc-AxirZ dpDXnQ"
+      form="[object Object]"
+      name="input"
+      type="text"
+      value=""
+    />
+    <label
+      class="sc-AxiKw dfvstx"
+    >
+      input
+    </label>
+  </div>
+</DocumentFragment>
+`;

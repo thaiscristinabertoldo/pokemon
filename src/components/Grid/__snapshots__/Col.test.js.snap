@@ -1,0 +1,11 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Col should take a snapshot 1`] = `
+<DocumentFragment>
+  <div
+    class="sc-AxjAm fmlA-dn"
+    size="1"
+    width="inherit"
+  />
+</DocumentFragment>
+`;

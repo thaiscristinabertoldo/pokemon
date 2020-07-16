@@ -1,0 +1,14 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Image should take a snapshot 1`] = `
+<DocumentFragment>
+  <img
+    alt="Image"
+    data-testid="image"
+    height="250px"
+    src="notfound.png"
+    title="Image"
+    width="250px"
+  />
+</DocumentFragment>
+`;
